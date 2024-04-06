@@ -1,0 +1,76 @@
+.container {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  color:white;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.slogan {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* responsiveness */
+/* ultra large laptop */
+@media screen and (min-width:1600px) and (max-width:2650px) {
+  .container {
+    height: 602px;
+  }
+  .name {
+    font-size: 7.22rem;
+    margin-bottom: 30px;
+  }
+  .slogan {
+    font-size: 6rem;
+  }
+  
+}
+
+/* mobile medium */ 
+@media screen and (max-width:377px) {
+  .container {
+    height: 88.19px;
+  }
+  .name {
+    font-size: 1.05rem;
+    margin-bottom: 4.3px;
+  }
+  .slogan {
+    font-size: 0.89rem;
+  }
+}
+
+/* small mobile */ 
+@media screen and (max-width:322px) {
+  .container {
+    height: 75.72px;
+  }
+  .name {
+    font-size: 0.9rem;
+    margin-bottom: 3.69px;
+  }
+  .slogan {
+    font-size: 0.764rem;
+  }
+}
+
+/* more small devices */ 
+@media screen and (max-width:300px) {
+  .container {
+    height: 70.9875px;
+  }
+  .name {
+    font-size: 0.84rem;
+    margin-bottom: 3.45px;
+  }
+  .slogan {
+    font-size: 0.71625rem;
+  }
+} 

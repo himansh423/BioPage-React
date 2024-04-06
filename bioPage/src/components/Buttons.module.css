@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  height:50px;
+  min-width: 380px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  color: aliceblue;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+/* responsiveness */ 
+/* ultra large laptop */
+
+@media screen and (min-width:1600px) and (max-width:2650px) {
+  .button {
+    height: 301px;
+    min-width: 2288px;
+    margin-bottom: 150px;
+    border: 18px solid white;
+    border-radius: 120px;
+    font-size: 7.22rem;
+  }
+}
+
+/* mobile medium */ 
+@media screen and (max-width:377px) {
+  .button {
+    height: 44.0965px;
+    min-width: 335px;
+    margin-bottom: 18px;
+    border: 2.16px solid white;
+    border-radius: 14.4px;
+    font-size: 0.8664rem;
+  }
+}
+
+/* small mobile */ 
+@media screen and (max-width:322px) {
+  .button {
+    height: 37px;
+    min-width: 287px;
+    margin-bottom: 15.45px;
+    border: 1.85px solid white;
+    border-radius: 12.36px;
+    font-size: 0.74397768rem;
+  }
+}
+
+/* more small devices */ 
+@media screen and (max-width:300px) {
+  .button {
+    height: 34px;
+    min-width: 230px;
+    margin-bottom: 14.48px;
+    border: 1.73px solid white;
+    border-radius: 11.58px;
+    font-size: 0.69397768rem;
+  }
+}
+
+
